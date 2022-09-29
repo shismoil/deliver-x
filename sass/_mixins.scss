@@ -1,0 +1,10 @@
+@mixin list-stater {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+@mixin flex-stater {
+    display: flex;
+    align-items: center;
+}

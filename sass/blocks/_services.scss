@@ -1,0 +1,115 @@
+    .services__subtext {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        /* identical to box height, or 111% */
+        text-align: center;
+        letter-spacing: 1.08px;
+        text-transform: uppercase;
+        color: #FF5634;
+    }
+    
+    .services__content {
+        width: 520px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .services__titlle {
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 54px;
+        /* identical to box height, or 123% */
+        text-align: center;
+        color: #121212;
+    }
+    
+    .services__wrapper {
+        width: 674px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+    }
+    
+    .services__text {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 30px;
+        /* identical to box height, or 250% */
+        text-align: center;
+        color: #656565;
+    }
+    
+    .services__list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 53px;
+    }
+    
+    .services__link {
+        position: relative;
+        width: 344px;
+    }
+    
+    .services__link+.services__link {
+        margin-left: 95px;
+    }
+    
+    .services__link::before {
+        display: block;
+        width: 218px;
+        background-image: url(../images/IMAGE\ \(9\).svg);
+        background-repeat: no-repeat;
+        height: 218px;
+        margin-bottom: 32px;
+        margin-left: auto;
+        margin-right: auto;
+        content: "";
+    }
+    
+    .services__link:nth-child(2)::before {
+        background-image: url(../images/IMAGE\ \(12\).svg);
+    }
+    
+    .services__link:nth-child(3)::before {
+        background-image: url(../images/IMAGE\ \(13\).svg);
+    }
+    
+    .sevices__aside {
+        width: 324px;
+    }
+    
+    .services__subject {
+        margin: 0;
+        margin-bottom: 15px;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 40px;
+        /* or 143% */
+        text-align: center;
+        color: #121212;
+    }
+    
+    .services__tageline {
+        margin: 0;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        /* identical to box height, or 167% */
+        text-align: center;
+        color: #656565;
+    }
+    
+    .services__block {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 200px;
+    }
+    
+    .services__button {
+        margin-left: 27px;
+        height: 73px;
+    }

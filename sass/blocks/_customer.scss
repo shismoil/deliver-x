@@ -1,0 +1,33 @@
+.customer__inner {
+    padding: 120px 0;
+}
+
+.customer__tittle {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    /* identical to box height, or 110% */
+    text-align: center;
+    color: #656565;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.customer__wrapper {
+    display: flex;
+}
+
+.customer__link {
+    display: inline-block;
+}
+
+.customer__link+.customer__link {
+    margin-left: 90px;
+}
+
+.customer__span {
+    margin-top: 145px;
+    display: inline-block;
+    width: 1221px;
+    border: 1px solid #CACACA;
+}

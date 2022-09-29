@@ -1,0 +1,141 @@
+.hero {
+    padding: 160px 0;
+    background-image: url(../images/IMAGE\ \(16\).png);
+    background-repeat: no-repeat;
+    background-position: calc(50% + 400px) top;
+}
+
+.hero__inner {
+    position: relative;
+}
+
+.hero__content {
+    width: 586px;
+}
+
+.content__subtext {
+    margin: 0;
+    margin-bottom: 28px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+    letter-spacing: 1.08px;
+    text-transform: uppercase;
+    color: #FF5634;
+}
+
+.content__inner {
+    width: 515px;
+}
+
+.content__tittle {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 72px;
+    /* or 116% */
+    margin: 0;
+    margin-bottom: 16px;
+    color: #121212;
+}
+
+.content__wrapper {
+    width: 574px;
+}
+
+.content__text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+    /* or 250% */
+    color: #656565;
+    margin: 0;
+    margin-bottom: 33px;
+}
+
+.content__btn {
+    max-width: 247px;
+    width: 100%;
+    display: inline-block;
+    padding: 26px;
+    background: #FF5634;
+    border: 1px solid #FF5634;
+    border-radius: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.content__button {
+    border: 1px solid #EDEDED;
+    box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+    border-radius: 16px;
+    width: 100%;
+    max-width: 205px;
+    padding: 26px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+    text-align: center;
+    color: #121212;
+    background: #FFFFFF;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 27px;
+    margin-bottom: 60px;
+}
+
+.content__menu {
+    padding: 60px 0;
+}
+
+.content__list {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.content-list__item+.content-list__item {
+    margin-left: 45px;
+}
+
+.content-list__tittle {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+    /* or 118% */
+    color: #121212;
+    margin: 0;
+}
+
+.content__span {
+    margin: 0;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 66px;
+    /* or 118% */
+    color: #FF5634;
+}
+
+.content-list__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+    color: #656565;
+    margin: 0;
+}
+
+.hero__img {
+    position: absolute;
+    top: -25px;
+    left: 600px;
+}
